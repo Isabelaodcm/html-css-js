@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini projeto</title>
+    <link rel="stylesheet" href="style.css"> <!--aplica o arquivo em css no codigo html-->
+</head>
+<body>
+    <nav>
+        <h2>Menu</h2>
+        <ul>
+            <li><a href = "#">Home</a></li>
+            <li><a href = "#">Produtos</a></li>
+            <li><a href = "#">Contatos</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Seja bem vindo</h1>
+        <p>Este é um site de exemplo para o mini projeto</p>
+    </section>
+    <footer>
+        <p>Desenvolvido por: Isabela &copy; 2025</p>
+</body>
+</html>
