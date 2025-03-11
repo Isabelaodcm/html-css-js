@@ -1,0 +1,21 @@
+<p> tag de paragrafo  </p>
+<div>
+    <h1> Clique no link: </h1>
+    <a href="https://www.google.com"> ir para o google </a>
+    <p>
+        <a href="https://www.google.com" target="_blank"> ir para o google em outra aba </a>
+    </p> <!-- abre em outra aba -->
+</div>
+
+
+<!--nesting exemplo-->
+<div>
+    <h1> Titulo </h1>
+    <p> paragrafo 1 </p>
+    <p> paragrafo 2 </p>
+    <p> paragrafo 3 </p>
+</div>
+
+<!--tags sem fechamento-->
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" alt="logo html">
+
