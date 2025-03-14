@@ -1,5 +1,7 @@
 body{
     padding: 20px;
+    padding-bottom: 500px;
+
 }
 p{
     color:green;
@@ -16,4 +18,41 @@ p{
     color: black;
     padding: 10 px;
     font-family: Helvetica;
+}
+
+/* elementos da página, listas */
+
+*{
+    font-family: Arial;
+}
+
+p, h1{
+    border-bottom: 1px solid black;
+}
+
+/* cores */
+.nome-da-cor{
+    color:pink
+}
+
+.hexa{
+    color: #b4287a
+}
+
+.rgb{
+    color: rgb(1, 40, 122)
+}
+
+/*fontes*/
+
+.serifada{
+    font-family: Georgia
+}
+
+.sem-serifada{
+    font-family: Helvetica
+}
+
+.mono-espacada{
+    font-family: 'Courier New'
 }
