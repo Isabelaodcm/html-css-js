@@ -1,25 +1,12 @@
 body{
     padding: 20px;
+    font-size: 20px;
     padding-bottom: 500px;
 
 }
 p{
     color:green;
 }
-
-/* classes e ids */
-.meu-paragrafo{
-    background-color: black;
-    color: aliceblue;
-}
-
-#titulo-principal{
-    background-color: yellow;
-    color: black;
-    padding: 10 px;
-    font-family: Helvetica;
-}
-
 /* elementos da página, listas */
 
 *{
@@ -55,4 +42,98 @@ p, h1{
 
 .mono-espacada{
     font-family: 'Courier New'
+}
+
+/* classes e ids */
+.meu-paragrafo{
+    background-color: black;
+    color: aliceblue;
+}
+
+#titulo-principal{
+    background-color: yellow;
+    color: black;
+    padding: 10 px;
+    font-family: Helvetica;
+}
+
+.box-model{
+    border: 2px solid blue;
+    width: 200px;
+    height: 100px;
+    border-radius: 15%;
+    padding: 20px;
+    margin: 10 px;
+}
+
+/* links */
+.decoration{
+    text-decoration: none; /* tira o subilinhado do link*/
+}
+
+.visitado:visited{ /* Alteracoes no link depois que ele é clicado */
+    color: purple 
+}
+
+.estilo-hover:hover{ /* Alteracoes no link quando se passa o mouse por cima dele */
+    background-color: aqua;
+}
+
+.button{
+    background-color: green;
+    text-decoration: none;
+    border: 3px solid rgb(38, 46, 49);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    display: block;
+    width: 120px;
+    margin: 20px;
+    text-align: center;
+}
+
+.listas{
+    list-style: none; /* tira as bullets da lista */
+}
+
+.Inline{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block; /* transforma elementos que estão em bloco (meio que em linhas separadas) em elementos inline */
+}
+
+.bloco{
+    display: block;
+}
+
+/* position fixed */
+.elemento-fixo{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15 px;
+    text-align: center;
+    background-color: #10533d;
+    color: white;
+    border-bottom: 2px solid #092c20;
+
+}
+
+/* pseudo sletor/ pseudo class */
+
+.primeiro-elemento p:first-child{
+    color: purple;
+    font-weight: bold;
+
+}
+
+/* pseudo elemento */
+.primeira-letra::first-letter{
+    font-family: 'Lucida Sans';
+    color: #800080;
+    font-weight: bold;
+
 }
